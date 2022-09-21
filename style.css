@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6592CF;
+}
+
+.Parent {
+    width: 65%;
+    height: 400px;
+    background-color: #243D83;
+    margin: 150px auto;
+}
+
+.child {
+    width: 400px;
+    height: 400px;
+    background-color: #243D83;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 325px;
+    border: 150px solid #6592CF;
+}
+
+.subchild{
+    width: 150px;
+    height: 150px;
+    background-color: #EEB850;
+    border-radius: 100%;
+    margin: 125px auto;
+}
